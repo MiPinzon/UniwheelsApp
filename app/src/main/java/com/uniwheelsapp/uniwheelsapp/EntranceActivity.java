@@ -80,7 +80,8 @@ public class EntranceActivity extends AppCompatActivity {
     }
 
     public void onGoLogin(View view){
-        throw new RuntimeException("Test Crash");
+        Intent i = new Intent(this, HomeDriverActivity.class);
+        startActivity(i);
         // Intent i = new Intent(this, LoginActivity.class);
         // startActivity(i);
     }
